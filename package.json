@@ -1,0 +1,38 @@
+{
+  "name": "superfly-css-component-test",
+  "version": "0.0.0",
+  "description": "Test component",
+  "main": "src/main/css/index.css",
+  "scripts": {
+    "update": "ncu -a && npm i",
+    "clean": "gulp clean",
+    "build": "npm run clean && gulp build:css",
+    "test": "npm run build && gulp test:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superfly-css/superfly-css-component-test.git"
+  },
+  "keywords": [
+    "css",
+    "component",
+    "superfly-css",
+    "test"
+  ],
+  "author": "Ole Ersoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superfly-css/superfly-css-component-test/issues"
+  },
+  "homepage": "https://github.com/superfly-css/superfly-css-component-test#readme",
+  "dependencies": {
+    "superfly-css-utilities-fonts": "0.0.13",
+    "superfly-css-utilities-layout": "^0.1.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "superfly-css-task-build": "^0.1.10",
+    "superfly-css-task-clean": "0.0.1",
+    "superfly-css-task-test": "^0.3.0"
+  }
+}

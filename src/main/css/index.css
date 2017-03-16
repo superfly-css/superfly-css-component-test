@@ -1,0 +1,31 @@
+/** @define Test */
+/*! superfly-css-component-test | MIT License | https://github.com/superfly-css/superfly-css-component-test/blob/master/LICENSE.md */
+
+@import "superfly-css-utilities-fonts";
+@import "superfly-css-utilities-layout";
+
+.Test_counter::before {
+  content: "∡\00a0" counter(test-counter);
+  counter-increment: test-counter;
+  @apply(--u-top-left);
+  @apply(--u-margin-top-1x);
+  @apply(--u-margin-left-2x);
+  @apply(--u-zindex-modal);
+  @apply(--u-font-weight-500);
+  @apply(--u-font-size-800);
+  @apply(--u-margin-left-2x);
+}
+
+:root {
+  --Test_counter::before {
+    content: "∡\00a0" counter(test-counter);
+    counter-increment: test-counter;
+    @apply(--u-top-left);
+    @apply(--u-margin-top-1x);
+    @apply(--u-margin-left-2x);
+    @apply(--u-zindex-modal);
+    @apply(--u-font-weight-500);
+    @apply(--u-font-size-800);
+    @apply(--u-margin-left-2x);
+  }
+}
