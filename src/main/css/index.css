@@ -4,6 +4,14 @@
 @import "superfly-css-utilities-fonts";
 @import "superfly-css-utilities-layout";
 
+.Test_when::before {
+  content: 'When';
+}
+
+.Test_then::before {
+  content: 'Then';
+}
+
 :root {
   --Test_container {
     @apply(--u-flex);
