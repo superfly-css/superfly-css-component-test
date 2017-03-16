@@ -5,6 +5,24 @@
 @import "superfly-css-utilities-layout";
 
 :root {
+  --Test_component {
+    @apply(--u-font-size-800);
+    @apply(--u-zindex-modal);
+    @apply(--u-margin-top-1x);
+    @apply(--u-margin-left-14x);
+    @apply(--u-margin-left-2x);
+  }
+}
+
+.Test_component {
+    @apply(--Test_component);
+}
+
+.Test_component::before {
+  content: "⋐\00a0";
+}
+
+:root {
   --Test_counter {
     @apply(--u-top-left);
     @apply(--u-margin-top-1x);
