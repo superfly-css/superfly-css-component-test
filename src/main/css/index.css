@@ -6,6 +6,7 @@
 
 :root {
   --Test_component {
+    @apply(--u-top-left);
     @apply(--u-font-size-800);
     @apply(--u-zindex-modal);
     @apply(--u-margin-top-1x);
