@@ -17,7 +17,7 @@
 }
 
 :root {
-  --Test_counter::before {
+  --Test_counter {
     content: "∡\00a0" counter(test-counter);
     counter-increment: test-counter;
     @apply(--u-top-left);
