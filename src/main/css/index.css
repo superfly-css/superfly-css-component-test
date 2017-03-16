@@ -10,7 +10,6 @@
     @apply(--u-flex-column);
     @apply(--u-md-flex-row);
     @apply(--u-md-flex-justify-around);
-    @apply(--u-md-flex-align-items-top);
     @apply(--u-width-100);
     @apply(--u-padding-top-1x);
     @apply(--u-margin-top-6x);
