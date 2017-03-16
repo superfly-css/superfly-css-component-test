@@ -16,7 +16,7 @@
   }
 }
 
-.Test_component {
+.Test_container {
     @apply(--Test_container);
 }
 
