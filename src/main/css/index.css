@@ -3,18 +3,43 @@
 
 @import "superfly-css-utilities-fonts";
 @import "superfly-css-utilities-layout";
+@import "superfly-css-component-test";
 
 :root {
   --Test {
-    @apply(--u-flex);
-    @apply(--u-flex-column);
-    @apply(--u-width-100);
-    @apply(--u-position-relative);
+   @apply(--u-flex);
+   @apply(--u-flex-column);
+   @apply(--u-width-100);
+   @apply(--u-position-relative);
   }
 }
 
 .Test {
   @apply(--Test);
+}
+
+:root {
+  --Test_input {
+   @apply(--u-flex);
+   @apply(--u-flex-column);
+   @apply(--u-width-30x);
+  }
+}
+
+.Test_input {
+  @apply(--Test_input);
+}
+
+:root {
+  --Test_output {
+   @apply(--u-flex);
+   @apply(--u-flex-column);
+   @apply(--u-width-30x);
+  }
+}
+
+.Test_output {
+  @apply(--Test_output);
 }
 
 .Test_when::before {
