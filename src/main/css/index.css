@@ -19,6 +19,28 @@
 }
 
 :root {
+  --Test_when {
+   @apply(--u-font-size-800);
+   @apply(--u-font-weight-500);
+  }
+}
+
+.Test_when {
+  @apply(--Test_when);
+}
+
+:root {
+  --Test_then {
+   @apply(--u-font-size-800);
+   @apply(--u-font-weight-500);
+  }
+}
+
+.Test_then {
+  @apply(--Test_then);
+}
+
+:root {
   --Test_input {
    @apply(--u-flex);
    @apply(--u-flex-column);
