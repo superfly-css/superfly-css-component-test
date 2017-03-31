@@ -76,8 +76,6 @@
   --Test_container {
     @apply(--u-flex);
     @apply(--u-flex-column);
-    @apply(--u-md-flex-row);
-    @apply(--u-md-flex-justify-around);
     @apply(--u-width-100);
     @apply(--u-padding-top-1x);
     @apply(--u-margin-top-6x);
