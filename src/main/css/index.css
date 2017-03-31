@@ -27,11 +27,6 @@
    @apply(--u-width-30x);
 }
 
-:root {
-  --Test_output {
-  }
-}
-
 .Test_output {
    @apply(--u-flex);
    @apply(--u-flex-column);
