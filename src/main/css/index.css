@@ -3,7 +3,6 @@
 
 @import "superfly-css-utilities-fonts";
 @import "superfly-css-utilities-layout";
-@import "superfly-css-component-test";
 
 .Test {
    @apply(--u-flex);

@@ -1,6 +1,6 @@
 {
   "name": "superfly-css-component-test",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Test component",
   "main": "src/main/css/index.css",
   "scripts": {
@@ -27,12 +27,13 @@
   "homepage": "https://github.com/superfly-css/superfly-css-component-test#readme",
   "dependencies": {
     "superfly-css-utilities-fonts": "0.0.19",
-    "superfly-css-utilities-layout": "^0.1.8"
+    "superfly-css-utilities-layout": "^0.3.1"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
     "superfly-css-task-build": "^0.3.2",
     "superfly-css-task-clean": "0.0.1",
+    "superfly-css-task-deploy": "0.0.10",
     "superfly-css-task-test": "^0.3.0"
   }
 }
