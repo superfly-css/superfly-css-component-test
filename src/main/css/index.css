@@ -5,63 +5,38 @@
 @import "superfly-css-utilities-layout";
 @import "superfly-css-component-test";
 
-:root {
-  --Test {
+.Test {
    @apply(--u-flex);
    @apply(--u-flex-column);
    @apply(--u-width-100);
    @apply(--u-position-relative);
-  }
-}
-
-.Test {
-  @apply(--Test);
-}
-
-:root {
-  --Test_when {
-   @apply(--u-font-size-800);
-   @apply(--u-font-weight-500);
-  }
 }
 
 .Test_when {
-  @apply(--Test_when);
-}
-
-:root {
-  --Test_then {
    @apply(--u-font-size-800);
    @apply(--u-font-weight-500);
-  }
 }
 
 .Test_then {
-  @apply(--Test_then);
-}
-
-:root {
-  --Test_input {
-   @apply(--u-flex);
-   @apply(--u-flex-column);
-   @apply(--u-width-30x);
-  }
+   @apply(--u-font-size-800);
+   @apply(--u-font-weight-500);
 }
 
 .Test_input {
-  @apply(--Test_input);
+   @apply(--u-flex);
+   @apply(--u-flex-column);
+   @apply(--u-width-30x);
 }
 
 :root {
   --Test_output {
-   @apply(--u-flex);
-   @apply(--u-flex-column);
-   @apply(--u-width-30x);
   }
 }
 
 .Test_output {
-  @apply(--Test_output);
+   @apply(--u-flex);
+   @apply(--u-flex-column);
+   @apply(--u-width-30x);
 }
 
 .Test_when::before {
@@ -72,42 +47,28 @@
   content: 'Then';
 }
 
-:root {
-  --Test_container {
+.Test_container {
     @apply(--u-flex);
     @apply(--u-flex-column);
     @apply(--u-flex-align-items-center);
     @apply(--u-width-100);
     @apply(--u-padding-top-1x);
     @apply(--u-margin-top-6x);
-  }
 }
 
-.Test_container {
-    @apply(--Test_container);
-}
-
-
-:root {
-  --Test_component {
+.Test_component {
     @apply(--u-top-left);
     @apply(--u-font-size-800);
     @apply(--u-zindex-modal);
     @apply(--u-margin-top-1x);
     @apply(--u-margin-left-14x);
-  }
-}
-
-.Test_component {
-    @apply(--Test_component);
 }
 
 .Test_component::before {
   content: "⋐\00a0";
 }
 
-:root {
-  --Test_counter {
+.Test_counter {
     @apply(--u-top-left);
     @apply(--u-margin-top-1x);
     @apply(--u-margin-left-2x);
@@ -115,11 +76,6 @@
     @apply(--u-font-weight-500);
     @apply(--u-font-size-800);
     @apply(--u-margin-left-2x);
-  }
-}
-
-.Test_counter {
-    @apply(--Test_counter);
 }
 
 .Test_counter::before {
